@@ -1,0 +1,82 @@
+body{
+    margin-left: 10%;
+}
+.a{
+    width: 80%;
+    float: left;
+}
+.b{
+    margin-top: 5%;
+    width: 10%;
+    float: left;
+}
+
+.a1 ul{
+    margin-left: 10%;
+}
+.a1 li{ 
+    list-style: none;
+    float: left;
+    padding: 5px 10px;
+    border: 1px solid black;
+    margin-right: 2px;
+    border-radius: 10px 0 0 0;
+    border-bottom: 0px;
+    background-color: pink;
+}
+
+.a1 a{
+    text-decoration: none;
+    color: white;
+}
+
+.a31{
+    float: left;
+    width: 68%;
+    padding: 1%;
+    height:600px;
+}
+.a32{
+    float: left;
+    width: 28%;
+    padding: 1%;
+    background-color: gainsboro;
+    height: 600px;
+}
+
+.a311{
+    float: left;
+    width: 59%;
+}
+
+.a312{
+    float: right;
+    width: 39%;
+}
+
+.b table{
+    margin-left: 5px;
+    border: 2px dashed black;
+    border-radius: 0 20px;
+}
+
+.b thead{
+    background-color: gray;
+    color: white;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0 20px 0 0;
+}
+
+.b tbody{
+    background-color: rgb(230, 216, 216);
+    color: black;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 0 0 0 20px;    
+}
+
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
